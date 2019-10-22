@@ -29,6 +29,7 @@ dart.style = `position: absolute; width: 50px; z-index: 5;`
 let flyingDart = appendBody(create('img'))
 flyingDart.src = "animated-clipart-darts-9.gif"
 flyingDart.style = `position: absolute; width: 100px; z-index: 5; left: -100px;`
+document.body.style.overflow = 'hidden !important'
 
 let bird1 = create('img')
 let bird2 = create('img')
